@@ -1,0 +1,1 @@
+const Tempo: string | number | boolean = 12
