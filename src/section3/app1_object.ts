@@ -10,10 +10,19 @@ const Product2:{productName:string,price:number,quantity:number} = {
     "quantity":5
 }
 
-// ! หรือ Object จะแก้ค่าไม่ได้
+// ! หรือ Object หรือ object สามารถแก้ไขค่าได้ อ้างถึงได้สำหรับ typescript จะเกิด error ฟ้อง
 const Product3:{} = {
     "productName":"Pen",
     "price":10,
     "quantity":25
 }
+
+const Product4:object = {
+    "productName":"Microwave",
+    "price":60,
+    "quantity":40
+}
+
+
+
 

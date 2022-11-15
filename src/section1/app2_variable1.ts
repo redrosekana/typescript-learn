@@ -6,3 +6,4 @@ console.log(firstname)
 console.log(age)
 console.log(married)
 
+
