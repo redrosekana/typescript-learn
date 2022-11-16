@@ -8,7 +8,6 @@ class Person {
     }
 }
 
-
 console.log(Person.fname)
 console.log(Person.sname)
 Person.displayInfomation()
