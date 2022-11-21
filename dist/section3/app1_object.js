@@ -9,7 +9,7 @@ const Product2 = {
     "price": 20,
     "quantity": 5
 };
-// ! หรือ Object หรือ object สามารถแก้ไขค่าได้ อ้างถึงได้สำหรับ typescript จะเกิด error ฟ้อง
+//! {} หรือ Object หรือ object สามารถแก้ไขค่าได้ อ้างถึงได้สำหรับ typescript จะเกิด error ฟ้องเฉยๆ
 const Product3 = {
     "productName": "Pen",
     "price": 10,

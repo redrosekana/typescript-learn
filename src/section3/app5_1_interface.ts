@@ -11,6 +11,8 @@ interface Profile1 {
     married?:boolean
 }
 
+//* แตกย่อย interface ไปอีก interface หนึ่งโดยนำ property พื้นฐานจาก Profile1 มา
+//* สามารถเพิ่ม property ได้
 interface Profile2 extends Profile1 {
     pet:string[]
 }

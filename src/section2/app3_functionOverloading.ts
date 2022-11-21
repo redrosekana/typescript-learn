@@ -1,3 +1,4 @@
+//TODO case1
 function sayHello():string
 function sayHello(name:string):string
 function sayHello(name?:unknown):string{
@@ -13,6 +14,10 @@ function sayHello(name?:unknown):string{
     throw new Error("ชนิดข้อมูลไม่ถูกต้อง")
 }
 
+//* test
+//console.log(sayHello())
+
+//TODO case2
 function addFunc(num1:number,num2:number):number
 function addFunc(num1:string,num2:string):number
 function addFunc(num1:unknown,num2:unknown):number{
@@ -27,6 +32,9 @@ function addFunc(num1:unknown,num2:unknown):number{
     
     throw new Error("ระบุชนิดข้อมูลไม่ถูกต้อง")
 }
+
+//* test
+//console.log(addFunc("1","2"))
 
 
 

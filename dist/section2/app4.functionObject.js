@@ -8,6 +8,7 @@ function displayComponent(animal) {
 //! แต่อาจจะมี error เตือนตอนเข้าถึงข้อมูล ซึ่งไม่ควรทำแบบนี้แต่แรก ควรกำหนด object ให้ชัดไปเลย
 const ant = {
     name: "tony",
-    age: 15,
+    age: 15
 };
+//* test
 console.log(displayComponent(ant));

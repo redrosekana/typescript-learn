@@ -1,4 +1,5 @@
 "use strict";
+//* type ใช้ได้ทั้งทุกประเภท
 const myCustomer = {
     customerName: "Fluck",
     age: 20,

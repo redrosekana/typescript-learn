@@ -4,6 +4,7 @@ interface monitor1 {
     //displayScreen1:()=>number
     displayScreen1():number
 }
+
 interface monitor2 {
     displayScreen2:()=>string
 }

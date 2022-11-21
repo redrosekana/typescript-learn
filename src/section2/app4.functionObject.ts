@@ -8,8 +8,9 @@ function displayComponent(animal:{name:string,age:number}):{name:string,age:numb
 //! แต่อาจจะมี error เตือนตอนเข้าถึงข้อมูล ซึ่งไม่ควรทำแบบนี้แต่แรก ควรกำหนด object ให้ชัดไปเลย
 const ant:{name:string,age:number} = {
     name:"tony",
-    age:15,
+    age:15
 }
 
+//* test
 console.log(displayComponent(ant))
 

@@ -1,4 +1,5 @@
-//* ใช้ได้ทั้งทุกประเภท
+//* type ใช้ได้ทั้งทุกประเภท
+
 type Customer = {
     customerName:string
     age:number
@@ -23,6 +24,3 @@ const myCustomers:Customer[] = [
         married:true
     }
 ]
-
-
-

@@ -17,3 +17,5 @@ function addFunc(num1, num2) {
     }
     throw new Error("ระบุชนิดข้อมูลไม่ถูกต้อง");
 }
+//* test
+//console.log(addFunc("1","2"))
