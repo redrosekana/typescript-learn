@@ -41,11 +41,3 @@ const pro2:Profile2 = {
 // type typeTest1 = {
 //     sname:string
 // }
-
-
-
-
-
-
-
-

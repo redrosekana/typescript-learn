@@ -23,9 +23,3 @@ enum TwentyTail {
     A = 0,
     B
 }
-
-
-
-
-
-

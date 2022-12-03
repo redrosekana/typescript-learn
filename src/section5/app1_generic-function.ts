@@ -10,7 +10,6 @@ function cutArray<T>(arr:T[],num:number):T[]{
 
 //* generic mutiple type && generic constraint
 function combine<T extends number,U extends boolean>(num:T,value:U):string{
-    
     return `${num*10} ${!value}`
 }
 

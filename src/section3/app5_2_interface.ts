@@ -17,8 +17,8 @@ const test2:monitor3 = {
     displayScreen1:function(){
         return 2+2
     },
-    displayScreen2:function(){
-        return "2"+"2"
+    displayScreen2(){
+        return "3"+"3"
     }
 }
 

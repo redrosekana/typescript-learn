@@ -69,9 +69,8 @@ class Frontend extends Employee implements Pet {
     public displayNamePet():string{
         return this.namePet.join(",")
     }
-
-
 }
+
 //TODO ถ้าเป็น class abstract กำหนดไม่ได้
 //const emp1 = new Employee("jaja","boonyai",123)
 //console.log(emp1)

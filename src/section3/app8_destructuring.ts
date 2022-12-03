@@ -1,7 +1,7 @@
 //* destructuring array
 const arrayDes:string[] = ["john","jojo","jaja"]
-const [one,two,three] = arrayDes
-console.log(one,two,three)
+const [one, ...two] = arrayDes
+console.log(one , two)
 
 //* destructuring object
 const objectDes:{p1:string,p2:number} = {p1:"tata",p2:45}
